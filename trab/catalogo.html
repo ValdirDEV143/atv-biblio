@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Livros</h1>
+    </header>
+    <main>
+        <form method="GET" action="php/listar.php">
+            <label for="filtro_genero">Filtrar por Gênero:</label>
+            <input type="text" id="filtro_genero" name="genero">
+            
+            <label for="filtro_data">Filtrar por Data de Publicação:</label>
+            <input type="date" id="filtro_data" name="data">
+            
+            <button type="submit">Filtrar</button>
+        </form>
+        <div id="livros">
+            <!-- Aqui os livros serão exibidos dinamicamente -->
+        </div>
+    </main>
+</body>
+</html>
