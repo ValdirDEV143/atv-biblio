@@ -16,31 +16,57 @@
             <a class="Catálogo" href="catalogo.html" id="Catálogo">Catálogo</a>
         </nav>
         <style>
-            body{
+            body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            form {
+                max-width: 500px;
+                margin: 0 auto;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            input {
+                width: 100%;
+                padding: 8px;
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            button {
+                padding: 10px 20px;
+                margin-right: 10px;
+                border: none;
+                background-color: #4CAF50;
                 color: white;
-                background-color: white;
-                text-align: left;
-                padding: 1rem;
-                width: 1000px;
-                height: 1200px;
+                cursor: pointer;
+                border-radius: 4px;
             }
-            h1{
-                background-color: rgba(111, 0, 255, 0.166);
-                text-align: right;
-                align-items: center;
-                display: flex;
+
+            button[type="button"] {
+                background-color: #f44336;
             }
-            .nav a{
-                background-color: magenta;
+
+            button:hover {
+                opacity: 0.8;
             }
-            button{
-                background-color: orange;
-                color: white;
-            }
-            button:hover{
-                background-color: yellow;
-                color:black
-            }
+
         </style>
     </div>
     </header>
